@@ -13,7 +13,7 @@ Sub main()
 
     Set swApp = Application.SldWorks
     
-    ReDim dbSites(2)
+    ReDim dbSites(3)
     
     dbSites(0).Name = "Hoffman"
     dbSites(0).Templates = "\\nventco.com\global\SolidWorks_Templates\Hoffman\Templates"
@@ -56,6 +56,11 @@ Sub main()
                             "\\destrap28\solidworks\Vorlagen\Blattformate2024\PR-A1;" & _
                             "\\destrap28\solidworks\Vorlagen\Platzhalter\Platzhalter_4;" & _
                             "\\destrap28\solidworks\Vorlagen\Blattformate2024\Z-AZUBI"
+                            
+    dbSites(3).Name = "Texa"
+    dbSites(3).Templates = "\\nventco.com\global\SolidWorks_Templates\Texa\Templates"
+    dbSites(3).CustomProperties = "\\nventco.com\Global\SolidWorks_Templates\Texa\Custom Properties"
+    dbSites(3).SheetFormats = ""
     
     ToggleForm.Show False
     

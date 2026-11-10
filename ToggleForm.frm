@@ -1,7 +1,7 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} ToggleForm 
-   Caption         =   "ToggleTemplateLocations v1.0"
-   ClientHeight    =   5925
+   Caption         =   "ToggleTemplateLocations v1.1"
+   ClientHeight    =   6585
    ClientLeft      =   120
    ClientTop       =   465
    ClientWidth     =   4260
@@ -60,6 +60,10 @@ End Sub
 
 Private Sub BtnStraubenhardt_Click()
     ChangeSite "Straubenhardt"
+End Sub
+
+Private Sub BtnTexa_Click()
+    ChangeSite "Texa"
 End Sub
 
 Private Sub BtnWIP_Click()
